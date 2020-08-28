@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <link href="gallery.css" type="text/css" rel="stylesheet">
+    <title>Gallery</title>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="navBar">
+            <a href="index.html">
+                <img id="logo" src="./assets/twicelogo.png" alt="logo">
+            </a>
+            <ul>
+                <li><a href="index.html">Index</a></li>
+                <br>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <header>
+            <h1 class="anim">Gallery</h1>
+            <p id="story" class="anim">Friends and Family</p>
+        </header>
+        <div class="me">
+            <img src="./assets/theboys.jpg">
+            <img src="./assets/family.jpg">
+            <img src="./assets/og.jpg">
+            <img src="./assets/bravo.jpg">
+            <img src="./assets/shandy.jpg">
+        </div>
+        <div class="header2">
+            <h1 class="anim">Hobbies!</h1>
+            <p class="anim">These are some pictures and Videos of all my Hobbies and my last squat before quarantine ;-;</p>
+        </div>
+        <div class="me">
+            <video src="./assets/355.mov" controls>355 Deadlift!</video>
+            <video src="./assets/grandcentral.mov" controls>Grand Central Station</video>
+            <img src="./assets/newyork.jpg">
+            <video src="./assets/video0.mov"controls>Last Squat before Quarantine</video>
+            <video src="./assets/isaac.mp4" controls>Isaac Deadlift</video>
+            <video src="./assets/jesus.mp4" controls>Jesus deadlift practice</video>
+            <img src="./assets/pc.jpg">
+            <img src="./assets/flags.jpg">
+            <img src="./assets/cathedral.jpg">
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        window.sr = ScrollReveal();
+        sr.reveal('.anim');
+        </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <link href="contact.css" type="text/css" rel="stylesheet">
+    <title>Contact Me</title>
+</head>
+<body>
+    <div class="wrapper">
+    <nav class="navBar">
+        <a href="index.html">
+            <img id="logo" src="./assets/twicelogo.png" alt="logo">
+        </a>
+        <ul>
+            <li><a href="index.html">Index</a></li>
+            <br>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    </div>
+    <div class="contact-section">
+        <h1>Contact Me</h1>
+        <form class="contact-form" action="contact.html" method="post">
+            <input type="text" class="contact-form-text" placeholder="Your name">
+            <input type="email" class="contact-form-text" placeholder="Your email">
+            <input type="text" class="contact-form-text" placeholder="Your phone number">
+            <textarea class="contact-form-text" placeholder="Your message"></textarea>
+            <input type="submit" class="contact-form-btn" value="Send">
+        </form>
+    </div>
+    <script type="text/javascript">
+        window.sr = ScrollReveal();
+        sr.reveal('.anim');
+        </script>
+</body>
+</html>
