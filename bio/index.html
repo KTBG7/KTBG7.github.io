@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <link href="index.css" type="text/css" rel="stylesheet" />
+    <title>Bio Page</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav class="navBar">
+        <a href="index.html">
+          <img id="logo" src="./assets/twicelogo.png" alt="logo" />
+        </a>
+        <ul>
+          <li><a href="gallery.html">Gallery</a></li>
+          <br />
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <header>
+        <h1 class="anim">Hello, I'm Kevin!</h1>
+        <p id="story" class="anim">
+          I am 18 years old and currently living in Irving, Texas. During my
+          freetime, I like to play video games with my friends. I tend to stick
+          to FPS and League. I also enjoy building desktops for my friends and
+          family. My favorite hobby is powerlifting! Prior to the COVID-19, I
+          would go to the gym every day from 9pm-(12-1am). My other hobby is to
+          travel! I hope to go to many places after the country is safe!
+        </p>
+      </header>
+      <div class="header2">
+        <h1 class="anim">White House Pictures!</h1>
+        <p class="anim">
+          These are some awesome pictures I took at the White House with Norfolk
+          State University, Navy ROTC Bravo Company!
+        </p>
+      </div>
+      <div class="me">
+        <img
+          class="anim"
+          src="./assets/me.jpg"
+          alt="picture of me at the White House"
+        />
+        <img
+          class="anim"
+          src="./assets/whitehouse.jpg"
+          alt="inside the White House"
+        />
+        <img class="anim" src="./assets/squad.jpg" alt="Bravo Company" />
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      window.sr = ScrollReveal();
+      sr.reveal('.anim');
+    </script>
+  </body>
+</html>
