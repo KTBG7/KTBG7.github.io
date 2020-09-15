@@ -2,7 +2,6 @@ body {
   margin: 0;
   text-align: center;
   font-family: verdana, sans-serif;
-  font-size: 200%;
 }
 
 .top-container {
@@ -46,7 +45,7 @@ p {
 }
 
 .me2 {
-  height: 400px;
+  width: 15%;
 }
 
 .bottom-cloud {
@@ -62,6 +61,20 @@ p {
 }
 
 .plate {
-  width: auto;
-  height: 400px;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.computer {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
 }
