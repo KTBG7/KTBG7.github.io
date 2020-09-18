@@ -84,6 +84,7 @@ h2 {
 
 h3 {
   background-image: url('./images/header-star-1.gif');
+  background-repeat: no-repeat;
   padding-left: 20px;
 }
 
