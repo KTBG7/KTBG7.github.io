@@ -2,10 +2,11 @@ body {
   margin: 0;
   text-align: center;
   font-family: verdana, sans-serif;
+  font-size: 2em;
 }
 
 .top-container {
-  background-color: #e0ece4;
+  background-color: #bbe1fa;
   position: relative;
   padding-top: 100px;
 }
@@ -14,12 +15,12 @@ h1 {
   font-size: 5.625rem;
   margin: 50px auto 0 auto;
   font-family: 'Courgette', cursive;
-  color: #66bfbf;
+  color: #0f4c75;
   line-height: 2;
 }
 
 h2 {
-  color: #66bfbf;
+  color: #0f4c75;
   font-size: 2.5rem;
 }
 
@@ -31,17 +32,31 @@ h3 {
 
 h3,
 a {
-  color: #11999e;
+  color: #3282b8;
 }
 
 p {
   font-family: 'Lato', sans-serif;
 }
 
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
+
 .middle-container {
 }
 
 .bottom-container {
+  background-color: #0f4c75;
+  padding-top: 100px;
+}
+
+.contact-me {
+  margin-bottom: 100px;
 }
 
 .me2 {
@@ -62,8 +77,8 @@ p {
 
 .plate {
   width: 25%;
-  float: left;
-  margin-right: 30px;
+  float: right;
+  margin-left: 30px;
 }
 
 .computer {
@@ -77,4 +92,26 @@ p {
   margin: 100px auto 100px auto;
   text-align: left;
   line-height: 2;
+}
+
+.copyright {
+  margin: 0;
+  padding: 50px;
+}
+
+.btn {
+  padding: 12px 20px 12px 20px;
+  border: none;
+  background-color: #3282b8;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn-a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
 }
