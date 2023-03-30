@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+}
+
+#container{
+  min-height: 100vh;
+  min-height: 100svh;
+}
+
+
+@font-face{
+    font-family: "Montserrat-Medium";
+    font-weight: 500;
+    src: url("../public/Montserrat-Medium.ttf")
+}
+
+@font-face{
+    font-family: "Montserrat-ExtraBold";
+    font-weight: 800;
+    src: url("../public/Montserrat-ExtraBold.ttf")
+}
+
+@supports (-webkit-touch-callout: none) {
+    .h-screen {
+      height: -webkit-fill-available;
+    }
+  }
+
+@font-face{
+    font-family: "Poppins-Medium";
+    font-weight: 500;
+    src: url("../public/Poppins-Medium.ttf")
+}
