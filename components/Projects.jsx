@@ -19,7 +19,7 @@ const Projects = () => {
             </div>
           </div>
             <div className='bg-white shadow-md flex flex-col w-80 h-[470px] rounded-md'>
-            <a href='/' target='_blank' className='hover:opacity-75 hover:pointer'>
+            <a href='https://www.kevinibanez.site' target='_blank' className='hover:opacity-75 hover:pointer'>
             <Image src={leom_suppliers} alt="Screenshot of Leom Suppliers website" className="rounded-t-md" />
             </a>
             <div className='px-4 text-center font-montserrat'>
@@ -30,7 +30,7 @@ const Projects = () => {
             </div>
           </div>
              <div className='bg-white shadow-md flex flex-col w-80 h-[470px] rounded-md'>
-            <a href='/' target='_blank' className='hover:opacity-75 hover:pointer'>
+            <a href='https://www.kevinibanez.site' target='_blank' className='hover:opacity-75 hover:pointer'>
             <Image src={pomodoro} alt="Screenshot of Pomodoro App website" className="rounded-t-md"/>
             </a>
             <div className='px-4 text-center font-montserrat'>

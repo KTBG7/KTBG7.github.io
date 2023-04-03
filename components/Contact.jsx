@@ -9,15 +9,22 @@ export default function Contact(props) {
     const [phone, setPhone] = useState('');
     const [subject, setSubject] = useState('');
     const [message, setMessage] = useState('');
-
+    const form = useRef();
+    
     const sendEmail = (e) => {
       e.preventDefault();
-      const form = {firstName, lastName, phone, subject, message}
+      
   
       emailjs.sendForm("service_dgaku7j", "template_2njd0bv", form.current, "qCiSSjMuFdeqyDav2")
         .then((result) => {
             console.log(result.text);
             props.setSubmitted(true);
+            setFirstName('');
+            setLastName('');
+            setEmail('');
+            setPhone('');
+            setSubject('');
+            setMessage('');
         }, (error) => {
             console.log(error.text);
         });

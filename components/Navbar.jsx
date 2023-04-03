@@ -20,7 +20,7 @@ const Navbar = () => {
             <li><Link href="/#welcome" className='py-8 px-4'>Home</Link></li>
             <li><Link href="/#About" className='py-8 px-4'>About</Link></li>
             <li><Link href="/#Projects" className='py-8 px-4'>Projects</Link></li>
-            <li><Link href="/Resume" className='py-8 px-4'>Resume</Link></li>
+            <li><a href="Ibanez_Kevin_Resume.pdf" download='Ibanez_Kevin_Resume.pdf' className='py-8 px-4'>Resume</a></li>
             <li><Link href="/#Contact" className='py-8 px-4'>Contact</Link></li>
         </ul>
         <div className='lg:hidden h-16 flex flex-1 justify-end items-center'>
